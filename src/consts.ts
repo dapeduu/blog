@@ -6,5 +6,5 @@ export const SITE_DESCRIPTION = 'Bem vindo ao meu blog! Meu nome é Pedro Santos
 export const SOCIAL_LINKS = {
     "linkedin": "https://www.linkedin.com/in/dapedu/",
     "github": "https://github.com/dapeduu",
-    "email": "mailto:pedrosantosdevelop@gmail.com"
+    "email": "mailto:contato@dapedu.dev.br"
 }
