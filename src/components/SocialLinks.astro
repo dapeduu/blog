@@ -1,0 +1,35 @@
+---
+import { SOCIAL_LINKS } from "../consts"
+---
+
+<div class="social-links">
+    <a href={SOCIAL_LINKS.linkedin} target="_blank">
+        <span class="sr-only">Conecte-se comigo no linkedin</span>
+        <img src="https://skillicons.dev/icons?i=linkedin">
+    </a>
+    <a href={SOCIAL_LINKS.github} target="_blank">
+        <span class="sr-only">Dê uma olhada no meu github</span>
+        <img src="https://skillicons.dev/icons?i=github">
+    </a>
+    <a href={SOCIAL_LINKS.email} target="_blank">
+        <span class="sr-only">Entre em contato comigo pelo meu email</span>
+        <img src="https://skillicons.dev/icons?i=gmail" >
+    </a>
+</div>
+
+<style>
+
+    .social-links {
+        gap: 1rem;
+        justify-content: center;
+    }
+    .social-links,
+	.social-links a {
+		display: flex;
+	}
+	@media (max-width: 720px) {
+		.social-links {
+			display: none;
+		}
+	}
+</style>
